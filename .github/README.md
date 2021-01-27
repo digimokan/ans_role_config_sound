@@ -11,7 +11,6 @@ Configure basic OS sound infrastructure.
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
-* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
@@ -52,12 +51,6 @@ Configure basic OS sound infrastructure.
          ansible.builtin.include_role:
            name: ans_role_config_sound
    ```
-
-## Role Options
-
-See the role `defaults` file, for overridable vars:
-
-  * [defaults/main.yml](../defaults/main.yml)
 
 ## Contributing
 

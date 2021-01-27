@@ -1,0 +1,7 @@
+- name: "Install pulseaudio package"
+  community.general.pacman:
+    name: pulseaudio
+    state: present
+  become: true
+  become_user: root
+
